@@ -12,7 +12,9 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color:darkblue;
+  font-family: 'Merriweather', serif;
+  font: bold;
 }
 
 p {
@@ -68,11 +70,29 @@ footer.page-footer {
   margin: 0;
 }
 
-img {
+.container img {
   width: 100%;
   height: auto;
 }
 
 #skypeLogo{
  size: 80px;
+}
+
+nav{
+  height: 80px;
+}
+
+nav a{
+  align-content: center;
+}
+
+ul li a{
+  margin: 0px;
+  padding: 10px 10px; display:inline-block;
+}
+
+.brand-logo img {
+  width: auto;
+  height: 78px;
 }

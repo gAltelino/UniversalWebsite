@@ -9,22 +9,32 @@
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
     <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
 </head>
 
 <body>
 
-    <nav class="blue white
-" role="navigation">
-        <div class="nav-wrapper container">
-            <a id="logo-container" href="index.html" class="brand-logo">Laboratórios Universal</a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="produtos.html">Produtos</a></li>
-                <li><a href="empresa.html">Empresa</a></li>
-                <li><a href="contato.html">Contatos</a></li>
-            </ul>
+    <div class="navbar-fixed hide-on-med-and-down">
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="#" class="brand-logo"><img src="images/logodaempresaparasite/logoLu.png"
+                        alt=""> Laboratórios Universal</a>
+                <ul class="right">
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="empresa.html">Empresa</a></li>
+                    <li><a href="contato.html">Contatos</a></li>
+                </ul>
 
+            </div>
+        </nav>
+    </div>
+
+
+    <nav class="white hide-on-large-only	" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo"><img src="images/logodaempresaparasite/logoLu.png" alt=""></a>
             <ul id="nav-mobile" class="sidenav">
                 <li><a href="produtos.html">Produtos</a></li>
                 <li><a href="empresa.html">Empresa</a></li>
@@ -43,12 +53,26 @@
                     <div class="icon-block">
                         <h5 class="center">Consulte nossa linha de produtos abaixo</h5>
 
-                        <img src="images/caderno.jpg" alt="imagem com lista de produtos selecionável">
+                        <img src="images/caderno.jpg" usemap="#logo" alt="imagem com lista de produtos selecionável">
 
+                        <map name="logo">
+                            <area class="aves-effect waves-light btn modal-trigger" shape="circle" coords="655,150,110" data-target="#modalTeste" />
+                        </map>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div id="modalTeste" class="modal">
+                <div class="modal-content">
+                    <h4>Produtos de Mineração</h4>
+                    <p>Produto XYZ</p>
+                    <p> -Descrição do produto</p>
+                </div>
+        
+            </div>
+
+
     </div>
 
     <div class="container">
@@ -56,7 +80,7 @@
 
             <!--   Icon Section   -->
             <div class="row">
-               
+
                 <a href="empresa.html">
                     <div class="col s12 m4">
                         <div class="icon-block">
@@ -67,10 +91,10 @@
                 </a>
 
                 <div class="col s12 m4">
-                        <div class="icon-block">
-                           
-                        </div>
+                    <div class="icon-block">
+
                     </div>
+                </div>
 
                 <a href="contato.html">
                     <div class="col s12 m4">
@@ -99,6 +123,8 @@
             </div>
         </div>
     </footer>
+
+   
 
 
     <!--  Scripts-->
