@@ -71,7 +71,7 @@ footer.page-footer {
 }
 
 .container img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -79,9 +79,9 @@ footer.page-footer {
  size: 80px;
 }
 
-nav{
+/* nav{
   height: 80px;
-}
+} */
 
 nav a{
   align-content: center;
@@ -94,5 +94,5 @@ ul li a{
 
 .brand-logo img {
   width: auto;
-  height: 78px;
+  height: 50px;
 }

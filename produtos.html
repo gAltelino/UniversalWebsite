@@ -8,7 +8,8 @@
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
     <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
@@ -45,69 +46,98 @@
     </nav>
 
     <div class="container">
-        <div class="section">
+        <div class="row">
+            <div class="col s12 m12">
+                <div class="icon-block">
+                    <h5 class="center">Consulte nossa linha de produtos abaixo</h5>
 
-            <!--   Icon Section   -->
-            <div class="row">
-                <div class="col s12 m12">
-                    <div class="icon-block">
-                        <h5 class="center">Consulte nossa linha de produtos abaixo</h5>
+                    <img src="images/caderno.jpg" usemap="#logo" alt="imagem com lista de produtos selecionável">
 
-                        <img src="images/caderno.jpg" usemap="#logo" alt="imagem com lista de produtos selecionável">
-
-                        <map name="logo">
-                            <area class="aves-effect waves-light btn modal-trigger" shape="circle" coords="655,150,110" data-target="#modalTeste" />
+                     <map name="logo" data-target="#modalTeste">
+                            <area class="aves-effect waves-light btn modal-trigger" shape="circle" coords="655,150,110"
+                                data-target="#modalTeste" data-toggle="modal" />
                         </map>
-                    </div>
                 </div>
             </div>
         </div>
 
-        <div id="modalTeste" class="modal">
-                <div class="modal-content">
-                    <h4>Produtos de Mineração</h4>
-                    <p>Produto XYZ</p>
-                    <p> -Descrição do produto</p>
-                </div>
-        
-            </div>
+    </div>
 
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Exemplo
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Produtos xyz</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Produto faz etc etc etc
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTeste" tabindex="-1" role="dialog" aria-labelledby="exampleModal"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="outroExemplo">Produtos abc</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <li>Produto 1</li>
+                    <li>Produto 2</li>
+                </div>
+                
+            </div>
+        </div>
+    </div>
 
     </div>
 
-    <div class="container">
-        <div class="section">
+    <div class="section">
 
-            <!--   Icon Section   -->
-            <div class="row">
+        <!--   Icon Section   -->
+        <div class="row">
 
-                <a href="empresa.html">
-                    <div class="col s12 m4">
-                        <div class="icon-block">
-                            <h2 class="center brown-text"><i class="material-icons">people</i></h2>
-                            <h5 class="center">Conheça nossa empresa</h5>
-                        </div>
-                    </div>
-                </a>
-
+            <a href="empresa.html">
                 <div class="col s12 m4">
                     <div class="icon-block">
-
+                        <h2 class="center brown-text"><i class="material-icons">people</i></h2>
+                        <h5 class="center">Conheça nossa empresa</h5>
                     </div>
                 </div>
+            </a>
 
-                <a href="contato.html">
-                    <div class="col s12 m4">
-                        <div class="icon-block">
-                            <h2 class="center brown-text"><i class="material-icons">call</i></h2>
-                            <h5 class="center">Entre em contato</h5>
-                        </div>
-                    </div>
-                </a>
+            <div class="col s12 m4">
+                <div class="icon-block">
+
+                </div>
             </div>
-        </div>
 
+            <a href="contato.html">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center brown-text"><i class="material-icons">call</i></h2>
+                        <h5 class="center">Entre em contato</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
     </div>
+
 
     <footer class="page-footer blue lighten-2">
         <div class="container">
@@ -124,12 +154,17 @@
         </div>
     </footer>
 
-   
+
 
 
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
     <script src="init.js"></script>
 
 </body>
