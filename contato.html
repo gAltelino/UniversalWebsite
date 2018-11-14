@@ -8,7 +8,8 @@
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
     <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
@@ -16,34 +17,35 @@
 
 <body>
 
-        <div class="navbar-fixed hide-on-med-and-down">
-                <nav class="white" role="navigation">
-                    <div class="nav-wrapper container">
-                        <a id="logo-container" href="#" class="brand-logo"><img src="images/logodaempresaparasite/logoLu.png"
-                                alt=""> Laboratórios Universal</a>
-                        <ul class="right">
-                            <li><a href="produtos.html">Produtos</a></li>
-                            <li><a href="empresa.html">Empresa</a></li>
-                            <li><a href="contato.html">Contatos</a></li>
-                        </ul>
-        
-                    </div>
-                </nav>
-            </div>
-        
-        
-            <nav class="white hide-on-large-only	" role="navigation">
-                <div class="nav-wrapper container">
-                    <a id="logo-container" href="#" class="brand-logo"><img src="images/logodaempresaparasite/logoLu.png" alt=""></a>
-                    <ul id="nav-mobile" class="sidenav">
-                        <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="empresa.html">Empresa</a></li>
-                        <li><a href="contato.html">Contatos</a></li>
-                    </ul>
-                    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                </div>
-            </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/logodaempresaparasite/logo_transparent.ico" width="30" height="30" class="d-inline-block align-top"
+                alt="">
+            Laboratórios Universal
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Produtos</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Empresa</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contatos<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+  
     <div id="index-banner" class="parallax-container">
         <div class="parallax"><img src="images/bg_1.jpg" alt="Unsplashed background img 1"></div>
     </div>
@@ -123,8 +125,12 @@
 
 
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <script src="init.js"></script>
 
 </body>
