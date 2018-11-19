@@ -25,6 +25,17 @@ p {
   color: #063df5;
 }
 
+footer{
+  background: lightblue;
+  margin: auto;
+  
+}
+
+.inFoot{
+  list-style-type: none; 
+  margin: 2px, 2px, 2px, 2px;
+}
+
 svg{
   fill:red ;
 }
@@ -64,6 +75,7 @@ svg{
 }
 .icon-block .material-icons {
   font-size: inherit;
+  color: #063df5;
 }
 
 footer.page-footer {

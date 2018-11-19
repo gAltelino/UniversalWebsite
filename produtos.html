@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8, shrink-to-fit=no" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Laboratórios Universal</title>
 
     <!-- CSS  -->
@@ -16,56 +17,103 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="images/logodaempresaparasite/logoLu.png" alt="logoDaEmpresa"
+                width="65" height="65"> Laboratórios Universal</a></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="navbar-fixed hide-on-med-and-down">
-        <nav class="white" role="navigation">
-            <div class="nav-wrapper container">
-                <a id="logo-container" href="#" class="brand-logo"><img src="images/logodaempresaparasite/logoLu.png"
-                        alt=""> Laboratórios Universal</a>
-                <ul class="right">
-                    <li><a href="produtos.html">Produtos</a></li>
-                    <li><a href="empresa.html">Empresa</a></li>
-                    <li><a href="contato.html">Contatos</a></li>
-                </ul>
-
-            </div>
-        </nav>
-    </div>
-
-
-    <nav class="white hide-on-large-only	" role="navigation">
-        <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo"><img src="images/logodaempresaparasite/logoLu.png" alt=""></a>
-            <ul id="nav-mobile" class="sidenav">
-                <li><a href="produtos.html">Produtos</a></li>
-                <li><a href="empresa.html">Empresa</a></li>
-                <li><a href="contato.html">Contatos</a></li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="empresa.html">Empresa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contatos</a>
+                </li>
             </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row">
-            <div class="col s12 m12">
-                <div class="icon-block">
-                    <h5 class="center">Consulte nossa linha de produtos abaixo</h5>
-
-                    <img src="images/caderno.jpg" usemap="#logo" alt="imagem com lista de produtos selecionável">
-
-                     <map name="logo" data-target="#modalTeste">
-                            <area class="aves-effect waves-light btn modal-trigger" shape="circle" coords="655,150,110"
-                                data-target="#modalTeste" data-toggle="modal" />
-                        </map>
-                </div>
+    <div class="container-fluid">
+        <div class="form-row">
+            <div class="form-group col-12">
+                <h5 class="text-center">Consulte nossa linha de produtos abaixo</h5>
             </div>
         </div>
 
+        <div class="form-row">
+            <div class="form-group col-12">
+                <img src="images/caderno.jpg" class="img-fluid rounded mx-auto d-block" id="produtos" usemap="#logo" alt="imagem com lista de produtos selecionável">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-1">
+            </div>
+
+            <div class="form-group col-10">
+                <div class="form-row">
+                    <div class="form-group col-4">
+                        <a href="empresa.html">
+                            <div class="col s12 m4">
+                                <div class="icon-block">
+                                    <h2 class="center brown-text"><i class="material-icons">people</i></h2>
+                                    <h5 class="center">Conheça nossa empresa</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="form-group col-4">
+
+                    </div>
+
+                    <div class="form-group col-4">
+                        <a href="contato.html">
+                            <div class="col s12 m4">
+                                <div class="icon-block">
+                                    <h2 class="center brown-text"><i class="material-icons">call</i></h2>
+                                    <h5 class="center">Entre em contato</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Exemplo
-    </button>
+    <footer class="page-footer">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                    <ul class="inFoot">
+                        <li class="font-weight-bold">Fale Conosco</li>
+                        <li><a>
+                                vendas@laboratóriosuniversal.com.br - (55 - 12) 3686-1516 </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <script src="imageMapResizer.min.js"></script>
+    <script src="init.js"></script>
+    
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -81,13 +129,12 @@
                 <div class="modal-body">
                     Produto faz etc etc etc
                 </div>
-                
+
             </div>
         </div>
     </div>
 
-    <div class="modal fade" id="modalTeste" tabindex="-1" role="dialog" aria-labelledby="exampleModal"
-        aria-hidden="true">
+    <div class="modal fade" id="modalTeste" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -100,72 +147,11 @@
                     <li>Produto 1</li>
                     <li>Produto 2</li>
                 </div>
-                
+
             </div>
         </div>
     </div>
 
-    </div>
-
-    <div class="section">
-
-        <!--   Icon Section   -->
-        <div class="row">
-
-            <a href="empresa.html">
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center brown-text"><i class="material-icons">people</i></h2>
-                        <h5 class="center">Conheça nossa empresa</h5>
-                    </div>
-                </div>
-            </a>
-
-            <div class="col s12 m4">
-                <div class="icon-block">
-
-                </div>
-            </div>
-
-            <a href="contato.html">
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h2 class="center brown-text"><i class="material-icons">call</i></h2>
-                        <h5 class="center">Entre em contato</h5>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-
-
-    <footer class="page-footer blue lighten-2">
-        <div class="container">
-            <div class="row">
-                <div class="col l8 s12">
-                    <h5 class="white-text "><i class="material-icons small ">business_center</i>Contatos</h5>
-                    <ul>
-                        <li><i class="material-icons tiny">mail</i><a class="white-text">
-                                vendas@laboratóriosuniversal.com.br</a></li>
-                        <li><i class="material-icons tiny ">call</i><a class="white-text"> (12) 3686-1516</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-
-
-    <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-
-    <script src="init.js"></script>
 
 </body>
 
