@@ -49,9 +49,31 @@
 
         <div class="form-row">
             <div class="form-group col-12">
-                <img src="images/caderno.jpg" class="img-fluid rounded mx-auto d-block" id="produtos" usemap="#logo" alt="imagem com lista de produtos selecionável">
+                <img src="images/caderno.jpg" class="img-fluid rounded mx-auto d-block" name="produtos" usemap="#p_produtos"
+                    alt="imagem com lista de produtos selecionável">
             </div>
         </div>
+
+        <map name="p_produtos">
+            <area alt="lubrificante" title="Lubrificante" href="#modalLubrificante" coords="307,464,173" shape="circle"
+                data-toggle="modal">
+            <area alt="Água" title="Água" href="#modalAgua" coords="669,194,173" shape="circle" data-toggle="modal">
+            <area alt="Queima" title="Queima" href="#modalQueima" coords="1214,180,170" shape="circle" data-toggle="modal">
+            <area alt="Posto" title="Posto" href="#modalPosto" coords="1627,472,194" shape="circle" data-toggle="modal">
+            <area alt="Engrenagem" title="Engrenagem" href="#modalEngrenagem" coords="1734,932,185" shape="circle"
+                data-toggle="modal">
+            <area alt="Moto" title="Moto" href="#modalMoto" coords="1602,1392,172" shape="circle" data-toggle="modal">
+            <area alt="Carro" title="Carro" href="#modalCarro" coords="1219,1648,169" shape="circle" data-toggle="modal">
+            <area alt="Trem" title="Trem" href="#modalTrem" coords="705,1649,169" shape="circle" data-toggle="modal">
+            <area alt="Caminhão" title="Caminhão" href="#modalCaminhao" coords="320,1385,160" shape="circle"
+                data-toggle="modal">
+            <area alt="Engrenagem2" title="Engrenagem2" href="#modalEngrenagem2" coords="185,927,168" shape="circle"
+                data-toggle="modal">
+            <area alt="Sabonete" title="Sabonete" href="#modalSabonete" coords="1725,1784,179" shape="circle"
+                data-toggle="modal">
+            <area alt="Madeira" title="Madeira" href="#modalMadeira" coords="190,1773,168" shape="circle" data-toggle="modal">
+        </map>
+        </map>
 
         <div class="form-row">
             <div class="form-group col-1">
@@ -111,48 +133,258 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-        <script src="imageMapResizer.min.js"></script>
+    <script src="imageMapResizer.min.js"></script>
     <script src="init.js"></script>
-    
+    <script type="text/javascript">
+
+        $('map').imageMapResize();
+
+    </script>
+
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="modalLubrificante" tabindex="-1" role="dialog" aria-labelledby="modalLubrificante"
         aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Produtos xyz</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Lubrificantes</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    Produto faz etc etc etc
+                    <ul>
+                        <li>Produto 1 - Descrição</li>
+                        <li>Produto 2 - Descrição</li>
+                        <li>Produto 3 - Descrição</li>
+                    </ul>
                 </div>
-
             </div>
         </div>
     </div>
 
-    <div class="modal fade" id="modalTeste" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+    <div class="modal fade" id="modalQueima" tabindex="-1" role="dialog" aria-labelledby="modalQueima" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="outroExemplo">Produtos abc</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Produtos para ???</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <li>Produto 1</li>
-                    <li>Produto 2</li>
+                    <ul>
+                        <li>Produto 1 - Descrição</li>
+                        <li>Produto 2 - Descrição</li>
+                        <li>Produto 3 - Descrição</li>
+                    </ul>
                 </div>
-
             </div>
         </div>
     </div>
 
+    <div class="modal fade" id="modalAgua" tabindex="-1" role="dialog" aria-labelledby="modalAgua" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Produtos para ?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Produto 1 - Descrição</li>
+                        <li>Produto 2 - Descrição</li>
+                        <li>Produto 3 - Descrição</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="modal fade" id="modalPosto" tabindex="-1" role="dialog" aria-labelledby="modalPosto" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Produtos para Postos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Produto 1 - Descrição</li>
+                        <li>Produto 2 - Descrição</li>
+                        <li>Produto 3 - Descrição</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalEngrenagem" tabindex="-1" role="dialog" aria-labelledby="modalEngrenagem"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Produtos para Engrenagem</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Produto 1 - Descrição</li>
+                        <li>Produto 2 - Descrição</li>
+                        <li>Produto 3 - Descrição</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalMoto" tabindex="-1" role="dialog" aria-labelledby="modalMoto" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Produtos para motos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Produto 1 - Descrição</li>
+                        <li>Produto 2 - Descrição</li>
+                        <li>Produto 3 - Descrição</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalCarro" tabindex="-1" role="dialog" aria-labelledby="modalCarro" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Produtos para carros</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Produto 1 - Descrição</li>
+                        <li>Produto 2 - Descrição</li>
+                        <li>Produto 3 - Descrição</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTrem" tabindex="-1" role="dialog" aria-labelledby="modalTrem" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Produtos para trem</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Produto 1 - Descrição</li>
+                        <li>Produto 2 - Descrição</li>
+                        <li>Produto 3 - Descrição</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalCaminhao" tabindex="-1" role="dialog" aria-labelledby="modalCaminhao" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Produtos para caminhão</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Produto 1 - Descrição</li>
+                        <li>Produto 2 - Descrição</li>
+                        <li>Produto 3 - Descrição</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalEngrenagem2" tabindex="-1" role="dialog" aria-labelledby="modalEngrenagem2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Produtos para engrenagem</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Produto 1 - Descrição</li>
+                        <li>Produto 2 - Descrição</li>
+                        <li>Produto 3 - Descrição</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalSabonete" tabindex="-1" role="dialog" aria-labelledby="modalSabonete" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Produtos para sabonete?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Produto 1 - Descrição</li>
+                        <li>Produto 2 - Descrição</li>
+                        <li>Produto 3 - Descrição</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalMadeira" tabindex="-1" role="dialog" aria-labelledby="modalMadeira" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Produtos para madeira???</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Produto 1 - Descrição</li>
+                        <li>Produto 2 - Descrição</li>
+                        <li>Produto 3 - Descrição</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
