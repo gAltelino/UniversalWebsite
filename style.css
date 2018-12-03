@@ -110,7 +110,7 @@ ul li a{
 }
 
 body{
-  background-image: url("/images/Imagem-para-sitecompacto.jpg");
+  background-image: url("~/images/Imagem-para-sitecompacto.jpg");
   background-color: #cccccc;
   background-size: 100%; 
 }
