@@ -108,3 +108,17 @@ ul li a{
   width: auto;
   height: 50px;
 }
+
+body{
+  background-image: url("/images/Imagem-para-sitecompacto.jpg");
+  background-color: #cccccc;
+   background-size: 100%; 
+  object-fit: fill;
+}
+
+
+
+.navbar {
+  background:transparent;
+}
+
