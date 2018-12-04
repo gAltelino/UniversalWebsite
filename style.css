@@ -10,11 +10,18 @@
   color: black;
 }
 
-nav ul a,
-nav .brand-logo {
-  color:darkblue;
-  font-family: 'Merriweather', serif;
+#unis, #lab {
+  color:black;
+  font-family: 'Fjalla One', serif;
   font: bold;
+  font-size: 28px;
+}
+
+#whatever{
+  color: black;
+  font-family: 'Fjalla One', serif;
+  font: bold;
+  font-size: 18px;
 }
 
 p {
@@ -110,12 +117,20 @@ ul li a{
 }
 
 body{
-  background-image: url("images/Imagem-para-sitecompacto.jpg");
+  background: url(images/backGround4k.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+
+  /* background-image: url("images/backGround4k.jpg");
   background-color: #cccccc;
-  background-size: 100%; 
+  background-size: 100% 100% 100% 100%;  */
 }
 
-
+.img-fluid{
+  max-height: 800px;
+  max-width: 800px;
+}
 
 .navbar {
   background:transparent;
