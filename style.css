@@ -1,12 +1,4 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
- .container a{
+.container a{
   color: black;
 }
 
@@ -17,15 +9,22 @@
   font-size: 28px;
 }
 
+body p{
+color: black;
+font-family: 'Fjalla One', 'serif';
+font-size: 18px;
+font: bold;
+}
+
 #whatever{
   color: black;
-  font-family: 'Fjalla One', serif;
+  font-family: 'Fjalla One', 'serif';
   font: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 p {
-  line-height: 2rem;
+  line-height: 3rem;
 }
 
 .sidenav-trigger {
@@ -47,7 +46,7 @@ svg{
   fill:red ;
 }
 
-.section .material-icons{
+.material-icons{
   color: #063df5;
 }
 
@@ -98,10 +97,6 @@ footer.page-footer {
  size: 80px;
 }
 
-/* nav{
-  height: 80px;
-} */
-
 nav a{
   align-content: center;
 }
@@ -120,19 +115,46 @@ body{
   background: url(images/backGround4k.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
-  overflow: hidden;
-
-  /* background-image: url("images/backGround4k.jpg");
-  background-color: #cccccc;
-  background-size: 100% 100% 100% 100%;  */
+  overflow: false;
 }
 
-.img-fluid{
-  max-height: 800px;
-  max-width: 800px;
+.img-bigbig{
+  max-width: 100%;
+  max-height: 100%;
+  width: 80%;
+  height: 80%;
 }
 
 .navbar {
   background:transparent;
 }
 
+.anotherBckp{
+  height: 100%;
+  background: linear-gradient(to right, white, grey);
+}
+
+.contsBckp{
+  background: url(images/fabricaFrente.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: auto;
+}
+
+#logoEmpresa{
+  height: 35%;
+  width: 35%;
+}
+
+.icons {
+  font-size: 5em;
+  color: #2E5894;
+}
+
+.h2Adp{
+ font-size: 20px;
+}
+
+.mainBody{
+  overflow: hidden;
+}
