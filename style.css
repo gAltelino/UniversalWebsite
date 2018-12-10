@@ -138,10 +138,9 @@ ul li a{
 }
 
 .myFooter{
-  height: 2.5em;
+  height: 2em;
   background: #3399FF;
 }
 .footerText{
   font-size: 0.8em;
-  align-self: center;
 }
