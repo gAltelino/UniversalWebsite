@@ -31,21 +31,6 @@ p {
   color: #063df5;
 }
 
-footer{
-  background: lightblue;
-  margin: auto;
-  
-}
-
-.inFoot{
-  list-style-type: none; 
-  margin: 2px, 2px, 2px, 2px;
-}
-
-svg{
-  fill:red ;
-}
-
 .material-icons{
   color: #063df5;
 }
@@ -93,9 +78,6 @@ footer.page-footer {
   height: auto;
 }
 
-#skypeLogo{
- size: 80px;
-}
 
 nav a{
   align-content: center;
@@ -106,17 +88,16 @@ ul li a{
   padding: 10px 10px; display:inline-block;
 }
 
-.brand-logo img {
+.brand-logo img{
   width: auto;
   height: 50px;
 }
 
-body{
-  background: url(images/backGround4k.jpg) no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
-  overflow: false;
+#logoEmpresa{
+  width: auto;
+  height: 50px;
 }
+
 
 .img-bigbig{
   max-width: 100%;
@@ -126,21 +107,9 @@ body{
 }
 
 .navbar {
-  background:transparent;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), #2E5894);
 }
 
-.anotherBckp{
-  height: 100%;
-  background: linear-gradient(to right, white, grey);
-}
-
-.contsBckp{
-  /* background: url(images/fabricaFrente.jpg) no-repeat center center fixed; */
-  background: white;
-  background-size: cover;
-  height: 100%;
-  overflow: auto;
-}
 
 #logoEmpresa{
   height: 35%;
@@ -159,3 +128,20 @@ body{
 /* .mainBody{
   overflow: hidden;
 } */
+
+.form-control {
+  border: 0;
+}
+#logoEmpresa{
+  width: auto;
+  height: 10em;
+}
+
+.myFooter{
+  height: 2.5em;
+  background: #3399FF;
+}
+.footerText{
+  font-size: 0.8em;
+  align-self: center;
+}
