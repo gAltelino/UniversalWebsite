@@ -125,9 +125,11 @@ ul li a{
  font-size: 30px;
 }
 
-/* .mainBody{
+ .mainBody{
+   background-image: url("images/almost-there.jpg");
+  background-color: #cccccc;
   overflow: hidden;
-} */
+ }
 
 .form-control {
   border: 0;
@@ -144,3 +146,8 @@ ul li a{
 .footerText{
   font-size: 0.8em;
 }
+
+/* #mainBody{
+  background-image: url("images/almost-there.jpg");
+  background-color: #cccccc;
+} */
