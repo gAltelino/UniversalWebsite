@@ -12,7 +12,7 @@
 body p{
 color: black;
 font-family: 'Fjalla One', 'serif';
-font-size: 20px;
+font-size: 18px;
 font: bold;
 }
 
@@ -142,6 +142,7 @@ ul li a{
 .myFooter{
   height: 2em;
   background: #3399FF;
+  
 }
 .footerText{
   font-size: 0.8em;
