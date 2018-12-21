@@ -219,7 +219,7 @@ body {
   /* width: 270px;
   padding: 20px; */
   margin: 50px auto;
-  -webkit-animation: breathing 7s ease-out infinite normal;
+  -webkit-animation: breathing 2s ease-out infinite normal;
   animation: breathing 7s ease-out infinite normal;
   font-size: 24px;
   color: #fff;
