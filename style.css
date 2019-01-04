@@ -32,7 +32,7 @@ p {
 }
 
 .material-icons{
-  color: #063df5;
+  color: #000000;
 }
 
 .parallax-container {
@@ -161,12 +161,16 @@ ul li a{
 
 .icons {
   font-size: 5em;
-  color: #2E5894;
+  color: #000000;
 }
 
 .h2Adp{
  font-size: 30px;
 }
+
+.h3Adp{
+  font-size: 25px;
+ }
 
 
 
@@ -175,7 +179,7 @@ ul li a{
 }
 #logoEmpresa{
   width: auto;
-  height: 10em;
+  height: 12em;
 }
 
 .myFooter{
