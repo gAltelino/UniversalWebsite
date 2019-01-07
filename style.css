@@ -116,6 +116,7 @@ ul li a{
   max-height: 100%;
   width: 85%;
   height: 80%;
+  margin-top: 25px;
 }
 
 .pequeno{
@@ -212,6 +213,10 @@ body {
   text-align: center;
 }
 
+.texting{
+  font-size: 90%;
+}
+
 
 /* #mainBody{
   background-image: url("images/almost-there.jpg");
@@ -222,7 +227,7 @@ body {
 #breathing-button {
   /* width: 270px;
   padding: 20px; */
-  margin: 50px auto;
+  margin: 5px auto;
   -webkit-animation: breathing 3s ease-out infinite normal;
   animation: breathing 5s ease-out infinite normal;
   font-size: 54px;
@@ -231,6 +236,8 @@ body {
   border-radius: 10px;
   text-align: center;    
   }
+
+  
 
 
 @-webkit-keyframes breathing {
