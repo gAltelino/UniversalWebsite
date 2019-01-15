@@ -107,6 +107,7 @@ ul li a{
   max-height: 100%;
   width: 60%;
   height: 70%;
+  margin-bottom: 0px;
 }
 
 
@@ -117,6 +118,8 @@ ul li a{
   width: 85%;
   height: 80%;
   margin-top: 25px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .pequeno{
@@ -198,6 +201,25 @@ html {
 }
 body {
   margin-bottom: 40px; /* Margin bottom by footer height */
+}
+
+.text-front{
+  color: white;
+  font-family: 'Fjalla One', 'serif';
+  font-size: 1.2em;
+  justify-content:center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  
+}
+
+.text-frontE{
+  color: white;
+  font-family: 'Fjalla One', 'serif';
+  font-size: 1.5em;
+  justify-content:center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .footer {
