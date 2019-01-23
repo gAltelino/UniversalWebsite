@@ -211,17 +211,17 @@ body {
 .text-front{
   color: black;
   font-family: 'Fjalla One', 'serif';
-  font-size: 1.1em;
+  font-size: 1.14em;
   justify-content:center;
   padding-bottom: 0px;
   margin-bottom: 0px;
   line-height: 1.6rem;
 
-  text-shadow:
-  -1px -1px 0 white,  
-   1px -1px 0 white,
-   -1px 1px 0 white,
-    1px 1px 0 white;
+    text-shadow:
+  -1px -1px 0 whitesmoke,  
+   1px -1px 0 whitesmoke,
+   -1px 1px 0 whitesmoke,
+    1px 1px 0 whitesmoke;  
   
 }
 
@@ -271,7 +271,13 @@ body {
   text-align: center;    
   }
 
+  #parent #popup {
+    display: none;
+  }
   
+  #parent:hover #popup {
+    display: block;
+  }
 
 
 @-webkit-keyframes breathing {
