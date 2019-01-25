@@ -14,7 +14,7 @@ $(document).ready(function () {
 
 function showModal(modal){
   $('#' + modal).modal('show')
-  $('.modal-content').css('height',$( window ).height()*1);
+  // $('.modal').css('height',$( window ).height()*1);
 }
 
 function hideModal(modal){
