@@ -14,9 +14,28 @@ $(document).ready(function () {
 
 function showModal(modal){
   $('#' + modal).modal('show')
+  $('.modal-content').css('height',$( window ).height()*1);
 }
 
 function hideModal(modal){
   console.log('try hide')
   $('#' + modal).modal('hide')
 }
+
+function closeModals(){
+  console.log('close')
+  $('#moto').modal('hide')
+  $('#trem').modal('hide')
+  $('#lancha').modal('hide')
+  $('#couro').modal('hide')
+  $('#oleoMotor').modal('hide')
+  $('#engrenagem').modal('hide')
+  $('#carro').modal('hide')
+  $('#caminhao').modal('hide')
+  $('#pocoAgua').modal('hide')
+  $('#fundicao').modal('hide')
+  $('#oleo').modal('hide')
+  $('#posto').modal('hide')
+  
+}
+
