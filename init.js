@@ -14,7 +14,7 @@ $(document).ready(function () {
 
 function showModal(modal){
   $('#' + modal).modal('show')
-  // $('.modal').css('height',$( window ).height()*1);
+  $('#' + modal).css("margin-right", $(window).width() - $('.modal-content').width());
 }
 
 function hideModal(modal){
