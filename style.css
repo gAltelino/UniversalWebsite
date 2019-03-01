@@ -213,15 +213,16 @@ body {
   font-family: 'Fjalla One', 'serif';
   font-size: 1.14em;
   justify-content:center;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  line-height: 1.6rem;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  line-height: 1.7rem;
+  font-weight: lighter;
 
     text-shadow:
-  -1px -1px 0 whitesmoke,  
-   1px -1px 0 whitesmoke,
-   -1px 1px 0 whitesmoke,
-    1px 1px 0 whitesmoke;  
+  -1px -1px 0 white,  
+   1px -1px 0 white,
+   -1px 1px 0 white,
+    1px 1px 0 white;  
   
 }
 
