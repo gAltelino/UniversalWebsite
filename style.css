@@ -106,11 +106,9 @@ ul li a{
   max-width: 100%;
   max-height: 100%;
   width: 60%;
-  height: 70%;
+  height: 60%;
   margin-bottom: 0px;
 }
-
-
 
 .img-bolas{
   max-width: 100%;
@@ -288,7 +286,12 @@ body {
    
   }
 
-  
+
+.imgModalSide{
+  height: 90%;
+  width: 90%;
+}
+
 /*   
 
 
