@@ -1,22 +1,22 @@
-.container a{
+.container a {
   color: black;
 }
 
 #unis, #lab {
-  color:black;
+  color: black;
   font-family: 'Fjalla One', serif;
   font: bold;
   font-size: 28px;
 }
 
-body p{
-color: black;
-font-family: 'Fjalla One', 'serif';
-font-size: 18px;
-font: bold;
+body p {
+  color: black;
+  font-family: 'Fjalla One', 'serif';
+  font-size: 18px;
+  font: bold;
 }
 
-#whatever{
+#whatever {
   color: black;
   font-family: 'Fjalla One', 'serif';
   font: bold;
@@ -31,7 +31,7 @@ p {
   color: #063df5;
 }
 
-.material-icons{
+.material-icons {
   color: #000000;
 }
 
@@ -39,13 +39,14 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
 
-@media only screen and (max-width : 992px) {
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -55,7 +56,7 @@ p {
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
   }
@@ -64,6 +65,7 @@ p {
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
   color: #063df5;
@@ -78,31 +80,31 @@ footer.page-footer {
   height: auto;
 }
 
-
-nav a{
+nav a {
   align-content: center;
 }
 
-ul li a{
+ul li a {
   margin: 0px;
-  padding: 10px 10px; display:inline-block;
+  padding: 10px 10px;
+  display: inline-block;
 }
 
-.brand-logo img{
+.brand-logo img {
   width: auto;
   height: 50px;
 }
 
-#logoEmpresa{
+#logoEmpresa {
   width: auto;
   height: 50px;
 }
 
-.imgDiv{
+.imgDiv {
   background: white;
 }
 
-.img-bigbig{
+.img-bigbig {
   max-width: 100%;
   max-height: 100%;
   width: 60%;
@@ -110,7 +112,7 @@ ul li a{
   margin-bottom: 0px;
 }
 
-.img-bolas{
+.img-bolas {
   max-width: 100%;
   max-height: 100%;
   width: 85%;
@@ -120,43 +122,42 @@ ul li a{
   padding-bottom: 0px;
 }
 
-.pequeno{
+.pequeno {
   display: none;
 }
-.padrao{
+
+.padrao {
   display: block;
 }
 
-.mainBody{
+.mainBody {
   background-image: url("images/1080.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
- background-color: #cccccc;
- 
+  background-color: #cccccc;
 }
 
-@media screen and (max-width: 1000px){
-  .img-bolas{
-  max-width: 100%;
-  max-height: 100%;
-  width: 100%;
-  height: 100%;
-}
-.pequeno{
-  display: block;
-}
-.padrao{
-  display: none;
-}
+@media screen and (max-width: 1000px) {
+  .img-bolas {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+  }
+  .pequeno {
+    display: block;
+  }
+  .padrao {
+    display: none;
+  }
 }
 
 .navbar {
-  background-image: linear-gradient(to right, rgba(255,0,0,0), #2E5894);
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #2E5894);
 }
 
-
-#logoEmpresa{
+#logoEmpresa {
   height: 35%;
   width: 35%;
 }
@@ -166,35 +167,30 @@ ul li a{
   color: #000000;
 }
 
-.h2Adp{
- font-size: 30px;
- text-shadow:
-  -1px -1px 0 white,  
-   1px -1px 0 white,
-   -1px 1px 0 white,
-    1px 1px 0 white;
+.h2Adp {
+  font-size: 30px;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
-.h3Adp{
+.h3Adp {
   font-size: 25px;
- }
-
-
+}
 
 .form-control {
   border: 0;
 }
-#logoEmpresa{
+
+#logoEmpresa {
   width: auto;
   height: 12em;
 }
 
-.myFooter{
+.myFooter {
   height: 2em;
   background: #3399FF;
-  
 }
-.footerText{
+
+.footerText {
   font-size: 0.8em;
 }
 
@@ -202,33 +198,29 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
-  margin-bottom: 40px; /* Margin bottom by footer height */
+  margin-bottom: 40px;
+  /* Margin bottom by footer height */
 }
 
-.text-front{
+.text-front {
   color: black;
   font-family: 'Fjalla One', 'serif';
   font-size: 1.14em;
-  justify-content:center;
+  justify-content: center;
   padding-bottom: 4px;
   margin-bottom: 4px;
   line-height: 1.7rem;
   font-weight: lighter;
-
-    text-shadow:
-  -1px -1px 0 white,  
-   1px -1px 0 white,
-   -1px 1px 0 white,
-    1px 1px 0 white;  
-  
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
-.text-frontE{
+.text-frontE {
   color: white;
   font-family: 'Fjalla One', 'serif';
   font-size: 1.5em;
-  justify-content:center;
+  justify-content: center;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
@@ -237,8 +229,10 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 40px; /* Set the fixed height of the footer here */
-  line-height: 40px; /* Vertically center the text there */
+  height: 40px;
+  /* Set the fixed height of the footer here */
+  line-height: 40px;
+  /* Vertically center the text there */
   background-color: #f5f5f5;
   align-self: center;
   align-items: center;
@@ -246,17 +240,10 @@ body {
   text-align: center;
 }
 
-.texting{
+.texting {
   font-size: 90%;
 }
 
-
-/* #mainBody{
-  background-image: url("images/almost-there.jpg");
-  background-color: #cccccc;
-} */
-
-/* Breathing bellow */
 #breathing-button {
   /* width: 270px;
   padding: 20px; */
@@ -267,29 +254,98 @@ body {
   color: #fff;
   -webkit-font-smoothing: antialiased;
   border-radius: 10px;
-  text-align: center;    
-  }
+  text-align: center;
+}
 
-  .modal {
-    position: absolute;
-    padding-left: 10px;
-    border-left: 10px;
-    top: 45%;
-    left: 27%;
-    transform: translate(-50%, -50%); 
-    width: 700px;
-    max-width: 100%;
-    height: 700px;
-     max-height: 100%; 
-    z-index: 1000;
-    overflow: hidden;
-   
-  }
+.modal {
+  position: absolute;
+  padding-left: 10px;
+  border-left: 10px;
+  top: 45%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  max-width: 100%;
+  height: 700px;
+  max-height: 100%;
+  z-index: 1000;
+  overflow: hidden;
+}
 
-
-.imgModalSide{
+.imgModalSide {
   height: 90%;
   width: 90%;
+}
+
+#backTest {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.backs {
+  background-size: 100% 100%;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.backs p {
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  font-weight: bold;
+}
+
+#postoback {
+  background-image: url('images/backTest/posto.jpg');
+}
+
+#carroback {
+  background-image: url('images/backTest/carro.jpg');
+}
+
+#curtumeback {
+  background-image: url('images/backTest/curtume.jpg');
+}
+
+#engranagemback {
+  background-image: url('images/backTest/engrenagem.jpg');
+}
+
+#lanchaback {
+  background-image: url('images/backTest/lancha.jpg');
+}
+
+#lubrificanteback {
+  background-image: url('images/backTest/lubrificante.jpeg');
+}
+
+#motoback {
+  background-image: url('images/backTest/moto.jpg');
+}
+
+#perfuracaoback {
+  background-image: url('images/backTest/perfuracao.jpg');
+}
+
+#petroleoback {
+  background-image: url('images/backTest/petroleo.gif');
+}
+
+#caminhaoback {
+  background-image: url('images/backTest/caminhao.jpg');
+}
+
+#tremback {
+  background-image: url('images/backTest/trem.jpg');
+}
+
+#usinagemback {
+  background-image: url('images/backTest/usinagem.jpg');
+}
+
+#engrenagemback {
+  background-image: url('images/backTest/engrenagem.jpg');
 }
 
 /*   
@@ -341,4 +397,4 @@ body {
   -ms-transform: scale(0.9);
   transform: scale(0.9);
 }
-} */ 
+} */
