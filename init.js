@@ -1,29 +1,25 @@
-// (function ($) {
-//   $(function () {
-
-//     $('.sidenav').sidenav();
-//     $('.parallax').parallax();
-
-//   }); // end of document ready
-// })(jQuery); // end of jQuery name space
+let modalState = 0;
+let modal = "";
 
 $(document).ready(function () {
   $('produtos').imageMapResize();
 });
 
-
-function showModal(modal){
+function showModal(modal) {
+  closeAll();
   $('#' + modal).modal('show')
   $('#' + modal).css("margin-right", $(window).width() - $('.modal-content').width());
+  modalState = 1;
 }
 
-function hideModal(modal){
-  console.log('try hide')
-  $('#' + modal).modal('hide')
+function closeModals() {
+  if (modalState === 1) {
+    closeAll();
+    modalState = 0;
+  }
 }
 
-function closeModals(){
-  console.log('close')
+function closeAll(){
   $('#moto').modal('hide')
   $('#trem').modal('hide')
   $('#lancha').modal('hide')
@@ -36,6 +32,4 @@ function closeModals(){
   $('#fundicao').modal('hide')
   $('#oleo').modal('hide')
   $('#posto').modal('hide')
-  
 }
-
